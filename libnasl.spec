@@ -17,7 +17,6 @@ BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:	openssl-devel
 BuildRequires:	libnessus-devel = %{version}
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 NASL is a scripting language designed for the Nessus security scanner.
