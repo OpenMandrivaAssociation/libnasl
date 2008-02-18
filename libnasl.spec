@@ -2,7 +2,7 @@
 %define libname %mklibname nasl %{major}
 %define libnamedev %mklibname nasl -d
 
-Summary:	NASL is a scripting language designed for the Nessus security scanner
+Summary:	Scripting language designed for the Nessus security scanner
 Name:		libnasl
 Version:	2.2.10
 Release:	%mkrel 1
