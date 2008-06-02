@@ -75,7 +75,7 @@ perl -pi -e 's|^PREFIX=.*|PREFIX='%{buildroot}%{_prefix}'|' %{buildroot}%{_bindi
 
 # remove unwanted files
 rm -rf	%{buildroot}%{_libdir}/%{name}/plugins_factory
-rm -rf  %{buildroot}%{_localstatedir}/nessus/nessus_org.pem
+rm -rf  %{buildroot}%{_localstatedir}/lib/nessus/nessus_org.pem
 
 %post -n %{libname} -p /sbin/ldconfig
 
