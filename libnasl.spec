@@ -77,9 +77,13 @@ perl -pi -e 's|^PREFIX=.*|PREFIX='%{buildroot}%{_prefix}'|' %{buildroot}%{_bindi
 rm -rf	%{buildroot}%{_libdir}/%{name}/plugins_factory
 rm -rf  %{buildroot}%{_localstatedir}/lib/nessus/nessus_org.pem
 
+%if %mdkversion < 200900
 %post -n %{libname} -p /sbin/ldconfig
+%endif
 
+%if %mdkversion < 200900
 %postun -n %{libname} -p /sbin/ldconfig
+%endif
 
 %clean
 if [ -d %{buildroot} ]; then rm -rf %{buildroot}; fi
