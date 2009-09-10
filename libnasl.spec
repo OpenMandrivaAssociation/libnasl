@@ -91,6 +91,7 @@ if [ -d %{buildroot} ]; then rm -rf %{buildroot}; fi
 %files -n %{libname}
 %defattr(0644,root,root,755)
 %attr(0755,root,root) %{_libdir}/*.so.*
+/var/nessus/nessus_org.pem
 
 %files -n %{libnamedev}
 %defattr(0644,root,root,755)
