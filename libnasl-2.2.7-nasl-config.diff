@@ -1,0 +1,13 @@
+--- nasl-config.in	2003-01-21 15:27:54.000000000 +0100
++++ nasl-config.in.oden	2006-03-09 13:45:52.000000000 +0100
+@@ -12,8 +12,8 @@
+ 
+ 
+ PREFIX=@prefix@
+-LIBDIR=$PREFIX/lib
+-INCLUDEDIR=$PREFIX/include
++LIBDIR=@libdir@
++INCLUDEDIR=@includedir@
+ VERSION=@version@
+ 
+ usage()

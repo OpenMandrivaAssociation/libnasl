@@ -1,0 +1,11 @@
+--- libnasl/nasl/Makefile.pem	2005-02-10 17:03:51.000000000 +0100
++++ libnasl/nasl/Makefile	2005-03-07 16:45:58.272831070 +0100
+@@ -126,7 +126,7 @@
+ 
+ 
+ nasl_crypto2.o: nasl_crypto2.c
+-	$(COMPILE) -c -DNESSUS_STATE_DIR=\"$(localstatedir)\" nasl_crypto2.c
++	$(COMPILE) -c -DNESSUS_STATE_DIR=\"$(sysconfdir)\" nasl_crypto2.c
+ 
+ nasl_server.o: nasl_server.c
+ 	$(COMPILE) -c -DNESSUS_STATE_DIR=\"$(localstatedir)\" nasl_server.c 
