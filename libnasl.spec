@@ -8,7 +8,7 @@ Version:	2.2.10
 Release:	%mkrel 6
 License:	GPL
 Group:		System/Libraries
-URL:		http://www.nessus.org
+URL:		https://www.nessus.org
 #http://cgi.tenablesecurity.com/nessus3dl.php?file=libnasl-2.2.10.tar.gz&licence_accept=yes&t=5a144975306462c6d49d299ba1d6c0b2
 Source0:	libnasl-%{version}.tar.gz
 Patch0:		libnasl-2.2.3-pem.patch
