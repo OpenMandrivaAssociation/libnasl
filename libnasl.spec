@@ -13,6 +13,11 @@ URL:		https://www.nessus.org
 Source0:	libnasl-%{version}.tar.gz
 Patch0:		libnasl-2.2.3-pem.patch
 Patch1:		libnasl-2.2.7-nasl-config.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:	openssl-devel
