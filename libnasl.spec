@@ -5,7 +5,7 @@
 Summary:	Scripting language designed for the Nessus security scanner
 Name:		libnasl
 Version:	2.2.10
-Release:	%mkrel 6
+Release:	7
 License:	GPL
 Group:		System/Libraries
 URL:		https://www.nessus.org
